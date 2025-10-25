@@ -2,7 +2,7 @@ const { test } = require('@playwright/test');
 const { LoginPage } = require('../pages/loginPage');
 const { ProductsPage } = require('../pages/productsPage');
 const { CartPage } = require('../pages/cartPage');
-const { CheckoutPage } = require('../pages/checkoutPage'); // ✅ path must match exactly
+const { CheckoutPage } = require('../pages/checkoutPage'); 
 
 
 test('Complete checkout process', async ({ page }) => {
